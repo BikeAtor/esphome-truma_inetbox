@@ -1,6 +1,5 @@
 #ifdef USE_ESP32_FRAMEWORK_ESP_IDF
-#include "sdkconfig.h"
-#include "esp_netif.h"
+#include "esp_types.h"
 #include "LinBusListener.h"
 #include "esphome/core/log.h"
 #include "driver/uart.h"
