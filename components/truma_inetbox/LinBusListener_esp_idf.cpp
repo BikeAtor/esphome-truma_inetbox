@@ -1,6 +1,5 @@
 #ifdef USE_ESP32_FRAMEWORK_ESP_IDF
 #include "LinBusListener.h"
-#include "task.h"
 #include "esphome/core/log.h"
 #include "driver/uart.h"
 #include "soc/uart_struct.h"
