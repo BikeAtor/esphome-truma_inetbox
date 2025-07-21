@@ -22,6 +22,10 @@
 #define TRUMA_LOG_QUEUE_LENGTH 6
 #endif
 
+#ifndef u_int32_t
+#define u_int32_t uint32_t
+#endif
+
 namespace esphome {
 namespace truma_inetbox {
 
