@@ -17,7 +17,7 @@ namespace truma_inetbox {
 
 static const char *const TAG = "truma_inetbox.LinBusListener";
 
-#define QUEUE_WAIT_BLOCKING (portTICK_RATE_MS) portMAX_DELAY
+#define QUEUE_WAIT_BLOCKING (portTICK_PERIOD_MS) portMAX_DELAY
 
 void LinBusListener::setup_framework() {
   // uartSetFastReading
