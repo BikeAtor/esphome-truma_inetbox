@@ -7,3 +7,12 @@
 **/__pycache__/**
 
 /local_*
+
+# Python virtual environment
+.venv/
+venv/
+
+# Build artifacts
+a.out
+*.o
+*.so
