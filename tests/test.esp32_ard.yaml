@@ -29,6 +29,7 @@ time:
     id: esptime
 
 uart: !include test.common.uart.yaml
+logger:
 truma_inetbox: !include test.common.truma_inetbox.yaml
 binary_sensor: !include test.common.binary_sensor.yaml
 button: !include test.common.button.yaml

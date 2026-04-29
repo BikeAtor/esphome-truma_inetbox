@@ -13,6 +13,7 @@ esp32:
     type: arduino
 
 uart: !include test.common.uart.yaml
+logger:
 truma_inetbox:
   uart_id: lin_uart_bus
   cs_pin: 5
