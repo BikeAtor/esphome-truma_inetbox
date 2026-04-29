@@ -6,32 +6,20 @@
 
 esphome:
   name: "georg-smartavan"
-  #name_add_mac_suffix: true
 
 external_components:
   #- source: github://Fabian-Schmidt/esphome-truma_inetbox
-  #- source: github://juvander/esphome-truma_inetbox
-  #- source: github://thomas70/esphome-truma_inetbox
-  #- source: github://BikeAtor/esphome-truma_inetbox
-  #- source: github://snipah/esphome-truma_inetbox
-  #- source: github://snipah/esphome-truma_inetbox@esp-idf # OK 20251121
-  - source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2025.11.0
-  #- source: github://skrebber/esphome-truma_inetbox
-  #- source: github://BikeAtor/esphome-truma_inetbox@20251122_test
+  #- source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2025.11.0
+  - source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2026.4.3
     components: ["truma_inetbox", "uart"]
     refresh: always
 
 esp32:
   board: esp32dev
   framework:
-  #  type: arduino
-  # If you want to use ESP-IDF, comment out line above and uncomment 2 lines below
-  # Note: esp-idf support is still somewhat experimental
     type: esp-idf
     #version: recommended
-    version: 5.5.1 # no connection to HA (compile-error ESPHome 2025.10)
-    #version: 5.4.1 # ok, but no values in HA
-    #version: 5.4.2 # ok (ESPHome 2025.10)
+    version: 5.5.4
 
 # fallback wifi
 #captive_portal:
