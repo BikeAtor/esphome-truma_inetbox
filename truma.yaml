@@ -10,9 +10,11 @@ esphome:
 external_components:
   #- source: github://Fabian-Schmidt/esphome-truma_inetbox
   #- source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2025.11.0
-  - source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2026.4.3
+  - source: github://BikeAtor/esphome-truma_inetbox@esp-idf_2026.6.2
     components: ["truma_inetbox", "uart"]
     refresh: always
+  #- source: ./components
+  #  components: ["truma_inetbox", "uart"]
 
 esp32:
   board: esp32dev
